@@ -193,15 +193,15 @@
                 </tr>
                     <td width=600px>
                       <center>
-                          <span style="font-size:14px"><i> <span style="font-weight:bold">We study the problem of layout estimation in 3D by reasoning about relationships between objects. Given an image and object detection boxes, we first predict the 3D pose (translation, rotation, scale) of each object and the relative pose between each pair of objects. We combine these predictions and ensure consistent relationships between objects to predict the final 3D pose of each object. (b) Output: An example result of our method that takes as input the 2D image and generates the 3D layout.</i>
-                    </center>
+                          <span style="font-size:14px"><i> <span style="font-weight:bold">Transferable Generative Adversarial Perturbation: We demonstrate that common adversaries exist across different image domains and introduce a highly transferable attack approach that carefully crafts adversarial patterns to fool classifiers trained on totally different domains. Our generative scheme learns to reconstruct adversaries on paintings or comics (\emph{left}) that can successfully fool natural image classifiers with high fooling rates at the inference time (\emph{right}).
+                      </center>
                     </td>
                 </tr>
             </table>
 
             <br>
-            We propose an approach to predict the 3D shape and pose for the objects present in a scene. Existing learning based methods that pursue this goal make independent predictions per object, and do not leverage the relationships amongst them. We argue that reasoning about these relationships is crucial, and present an approach to incorporate these in a 3D prediction framework. In addition to independent per-object predictions, we predict pairwise relations in the form of relative 3D pose, and demonstrate that these can be easily incorporated to improve object level estimates. We report performance across different datasets (SUNCG, NYUv2), and show that our approach significantly improves over independent prediction approaches while also outper- forming alternate implicit reasoning methods.
-            <br><br>
+           Adversarial examples reveal the blind spots of deep neural networks (DNNs) and represent a major concern for security-critical applications. The transferability of adversarial examples makes real-world attacks possible in black-box settings, where the attacker is forbidden to access the internal parameters of the model. The underlying assumption in most adversary generation methods, whether learning an instance-specific or an instance-agnostic perturbation, is the direct or indirect reliance on the original domain-specific data distribution. In this work, for the first time, we demonstrate the existence of domain-invariant adversaries, thereby showing common adversarial space among different datasets and models. To this end, we propose a framework capable of launching highly transferable attacks that crafts adversarial patterns to mislead networks trained on wholly different domains. For instance, an adversarial function learned on Paintings, Cartoons or Medical images can successfully perturb ImageNet samples to fool the classifier, with success rates as high as $\sim$99\% ($\ell_{\infty} \le 10$). The core of our proposed adversarial function is a generative network that is trained using a relativistic supervisory signal that enables domain-invariant perturbations. Our approach sets the new state-of-the-art for fooling rates, both under the white-box and black-box scenarios. Furthermore, despite being an instance-agnostic perturbation function, our attack outperforms the conventionally much stronger instance-specific attack methods.
+           <br><br>
           <hr>
          <!-- <table align=center width=550px> -->
             <table align=center width=650>
@@ -295,7 +295,7 @@
                       <left>
                 <center><h1>Acknowledgements</h1></center>
                 <!-- This work was supported in part by Intel/NSF VEC award IIS-1539099, NSF Award IIS-1212798, and the Google Fellowship to SG. We gratefully acknowledge NVIDIA corporation for the donation of Tesla GPUs used for this research. -->
-                When this work was done IM was at CMU, and ST was at UC Berkeley. We thank Saurabh Gupta for his help with setting up the evaluation for NYUv2 dataset. This webpage template was borrowed from some <a href="https://richzhang.github.io/colorization/">colorful folks</a>.
+                This work was done at Inception Institute of Artificial Intelligence. This webpage template was borrowed from <a href="https://richzhang.github.io/colorization/">Richard Zhang</a>.
             </left>
         </td>
         </tr>
