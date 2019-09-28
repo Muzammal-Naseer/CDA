@@ -28,7 +28,25 @@ cd Cross-domain-perturbations
   
 ## Datasets
 * For training, we used the following datasets:
-  * [ImageNet](http://www.image-net.org/) Training Set 
+  * [ImageNet](http://www.image-net.org/) Training Set.
+  * [Paintings](https://www.kaggle.com/c/painter-by-numbers)
+  * [Comics](https://www.kaggle.com/cenkbircanoglu/comic-books-classification)
+  * [Chexnet](https://stanfordmlgroup.github.io/projects/chexnet/)
+  * You can try your own data set as well
+  
+* For evaluations, we used the following dataset:
+  * [ImageNet]((http://www.image-net.org/)) Validation Set (50k images).
+  * A [subset](https://github.com/LiYingwei/Regional-Homogeneity/tree/master/data) of ImageNet validation set (5k images).
+  * NeurIPS dataset (1k images).
+  
+* Data directory structure should look like this:
+    |Root
+        |ClassA
+                img1
+                img2
+         .
+         .
+         .
 
 
 ## Training/Evaluations
