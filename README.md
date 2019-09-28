@@ -78,7 +78,7 @@ This will load a generator trained on ImageNet (--train_dir) against ResNet152 (
 ```
 You should see beautiful images like this:
 <p align="center">
-<img src="assets/cross_distribution.png"/>
+<img src="assets/adv_paintings_incv3.jpg"/>
 </p>
 
 
