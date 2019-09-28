@@ -97,8 +97,6 @@ You should see beautiful images like this:
   journal={arXiv preprint arXiv:1905.11736},
   year={2019}
 }
-
-
 ```
 
 
