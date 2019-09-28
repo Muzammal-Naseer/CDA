@@ -32,6 +32,7 @@ Adversarial generators are trained against following four models.
 * Inceptionv3
 * VGG19
 * VGG16
+
 These models are trained on ImageNet and available in Pytorch.
   
 ## Datasets
