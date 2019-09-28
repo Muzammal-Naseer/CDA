@@ -11,11 +11,11 @@ where the attacker is forbidden to access the internal parameters of the model. 
 ![Learning Algo](/assets/cross_distribution.png)
 
 ## Usage
-### step 1 : Install dependencies
+### Installation
 ```
 pip install -r requirements.txt
 ```
-### step 2 : Clone the repository
+### Clone the repository
 ```
 git clone https:https://github.com/Muzammal-Naseer/Cross-domain-perturbations.git
 cd Cross-domain-perturbations
