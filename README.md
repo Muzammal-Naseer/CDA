@@ -25,6 +25,13 @@ cd Cross-domain-perturbations
 
 ## Pretrained Generators
 <p align="justify">Download pretrained adversarial generators from here to 'saved_models' folder. We provided one pretrained generator over this repo.<p >
+
+Adversarial generators are trained against following four models.
+* ResNet15
+* Inceptionv3
+* VGG19
+* VGG16
+These models are trained on ImageNet and available in Pytorch.
   
 ## Datasets
 * Training data:
