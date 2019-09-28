@@ -1,3 +1,1 @@
-[Project Page](https://muzammal-naseer.github.io/Cross-domain-perturbations/)
-
-### Code and pretrianed generators are comming soon
+# Cross Domain Transferable Perturbations [Project Page](https://muzammal-naseer.github.io/Cross-domain-perturbations/)
