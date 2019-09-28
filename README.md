@@ -11,8 +11,4 @@
 ## Pretrained Generators
 Download pretrained generator from here to 'saved_models' folder.
 
-<a name="train_eval"/>
-## Training/Evaluations
 
-<a name="create_save"/>
-## Create and Save Adversarial Images
