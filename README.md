@@ -11,7 +11,7 @@ where the attacker is forbidden to access the internal parameters of the model. 
 ![Learning Algo](/assets/cross_distribution.png)
 
 ### Pretrained Generators
-<p align="justify">Download pretrained adversarial generators from here to 'saved_models' folder. _We provided one pretrained generator over this repo._<p >
+<p align="justify">Download pretrained adversarial generators from here to 'saved_models' folder. We provided one pretrained generator over this repo.<p >
 
 
 ### Training/Evaluations
