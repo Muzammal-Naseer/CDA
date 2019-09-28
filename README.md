@@ -72,7 +72,6 @@ This will start trainig a generator trained on Paintings (--train_dir) against R
 
 ```
   python eval.py --model_type res152 --train_dir imagenet --test_dir ../IN/val --epochs 0 --model_t vgg19 --eps 10 --measure_adv --rl
-  
 ```
 This will load a generator trained on ImageNet (--train_dir) against ResNet152 (--model_type) and evaluate clean and adversarial accuracy of VGG19 (--model_t) under perturbation budget 10 (--eps). <p>
 
@@ -82,7 +81,6 @@ This will load a generator trained on ImageNet (--train_dir) against ResNet152 (
 
 ```
  python generate_and_save_adv.py --model_type incv3 --train_dir paintings --test_dir 'your_data/' --eps 255
-  
 ```
 You should see beautiful images like this:
 <p align="center">
