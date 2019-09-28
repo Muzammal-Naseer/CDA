@@ -2,12 +2,9 @@
 [Project Page](https://muzammal-naseer.github.io/Cross-domain-perturbations/)
 
 ![Learning Algo](/assets/cross_distribution.png)
-
-## Table of Contents
-===================
-
-<!--ts-->
-   * [Pretrained Generators](#pretrained_gen)  
-<!--te-->
-
-## Pretrained Generators
+##### Table of Contents  
+[Headers](#headers)  
+[Emphasis](#emphasis)  
+...snip...    
+<a name="headers"/>
+## Headers
