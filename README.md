@@ -73,12 +73,12 @@ This will load a generator trained on ImageNet (--train_dir) against ResNet152 (
 <p align="justify"> If you need adversaries for visualization or adversarial training, run the following command:
 
 ```
- python generate_and_save_adv.py --model_type incv3 --train_dir paintings --test_dir 'your_data/' --eps 16
+ python generate_and_save_adv.py --model_type incv3 --train_dir paintings --test_dir 'your_data/' --eps 255
   
 ```
 You should see beautiful images like this:
 <p align="center">
-<img src="assets/adv_paintings_incv3.jpg"/>
+<img src="https://github.com/Muzammal-Naseer/Cross-domain-perturbations/blob/gh-pages/resources/images/adv_unbound_paintings_incv3.jpg"/>
 </p>
 
 
