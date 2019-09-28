@@ -89,6 +89,17 @@ You should see beautiful images like this:
 <img src="https://github.com/Muzammal-Naseer/Cross-domain-perturbations/blob/gh-pages/resources/images/adv_unbound_paintings_incv3.jpg"/>
 </p>
 
+## Citation
+```
+@article{naseer2019cross,
+  title={Cross-Domain Transferability of Adversarial Perturbations},
+  author={Naseer, Muzammal and Khan, Salman H and Khan, Harris and Khan, Fahad Shahbaz and Porikli, Fatih},
+  journal={arXiv preprint arXiv:1905.11736},
+  year={2019}
+}
+
+
+```
 
 
 
