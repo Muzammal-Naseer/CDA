@@ -3,8 +3,8 @@
 
 ![Learning Algo](/assets/cross_distribution.png)
 ##### Table of Contents  
-[Headers](#headers)  
+[Pretrained Generators](#generators)  
 [Emphasis](#emphasis)  
 ...snip...    
 <a name="headers"/>
-## Headers
+## Pretrained Generators
