@@ -10,7 +10,7 @@ where the attacker is forbidden to access the internal parameters of the model. 
 
 ![Learning Algo](/assets/cross_distribution.png)
 
-## Usage
+## Dependencies
 1. Install [pytorch](https://pytorch.org/).
 2. Install python packages using following command:
 ```
