@@ -1,6 +1,5 @@
 # Cross-Domain Transferable Perturbations 
-[Project Page](https://muzammal-naseer.github.io/Cross-domain-perturbations/)
-Pytorch Implementation of "Cross-Domian Transferability of Adversarial Perturbations" (NeurIPS 2019) [(arXiv link)](https://arxiv.org/abs/1905.11736). 
+Pytorch Implementation of "Cross-Domian Transferability of Adversarial Perturbations" (NeurIPS 2019) [(arXiv link)](https://arxiv.org/abs/1905.11736), [Project Page](https://muzammal-naseer.github.io/Cross-domain-perturbations/)
 
 ## Introduction
 
@@ -9,12 +8,12 @@ where the attacker is forbidden to access the internal parameters of the model. 
 
 ![Learning Algo](/assets/cross_distribution.png)
 
-#### Pretrained Generators
-Download pretrained adversarial generators from here to 'saved_models' folder. _We provided one pretrained generator over this repo._
+### Pretrained Generators
+<p align="justify">Download pretrained adversarial generators from here to 'saved_models' folder. _We provided one pretrained generator over this repo._<p >
 
 
-#### Training/Evaluations
+### Training/Evaluations
 
 
-#### Create and Save Adversarial Images
+### Create and Save Adversarial Images
 
