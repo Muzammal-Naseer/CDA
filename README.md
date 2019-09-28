@@ -4,7 +4,7 @@
 ![Learning Algo](/assets/cross_distribution.png)
 
 #### Pretrained Generators
-Download pretrain adversarial generators from here to 'saved_models' folder. _**We provided one pretrained generator over this repo.**_
+Download pretrained adversarial generators from here to 'saved_models' folder. _We provided one pretrained generator over this repo._
 
 
 #### Training/Evaluations
