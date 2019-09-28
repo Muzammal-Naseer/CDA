@@ -23,12 +23,12 @@ git clone https:https://github.com/Muzammal-Naseer/Cross-domain-perturbations.gi
 cd Cross-domain-perturbations
 ```
 
-### Pretrained Generators
+## Pretrained Generators
 <p align="justify">Download pretrained adversarial generators from here to 'saved_models' folder. We provided one pretrained generator over this repo.<p >
 
 
-### Training/Evaluations
+## Training/Evaluations
 
 
-### Create and Save Adversarial Images
+## Create and Save Adversarial Images
 
