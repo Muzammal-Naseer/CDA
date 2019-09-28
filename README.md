@@ -3,11 +3,11 @@
 
 ![Learning Algo](/assets/cross_distribution.png)
 
-## Table of Contents  
-[Pretrained Generators](#pretrained_gen)  
+## Table of Contents
+===================
 
 <!--ts-->
    * [Pretrained Generators](#pretrained_gen)  
 <!--te-->
 
-Pretrained Generators
+## Pretrained Generators
