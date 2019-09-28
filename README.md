@@ -4,6 +4,5 @@
 ![Learning Algo](/assets/cross_distribution.png)
 ##### Table of Contents  
 [Pretrained Generators](#generators)  
-   
 <a name="headers"/>
 ## Pretrained Generators
