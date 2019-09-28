@@ -40,6 +40,7 @@ cd Cross-domain-perturbations
   * NeurIPS dataset (1k images).
   
 * Data directory structure should look like this:
+    '''bash
     |Root
         |ClassA
                 img1
@@ -47,6 +48,7 @@ cd Cross-domain-perturbations
          .
          .
          .
+     '''
 
 
 ## Training/Evaluations
