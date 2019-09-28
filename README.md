@@ -9,6 +9,3 @@
 
 <a name="generators"/>
 ## Pretrained Generators
-Download pretrained generator from here to 'saved_models' folder.
-
-
