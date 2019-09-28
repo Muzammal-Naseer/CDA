@@ -27,7 +27,7 @@ cd Cross-domain-perturbations
 <p align="justify">Download pretrained adversarial generators from here to 'saved_models' folder. We provided one pretrained generator over this repo.<p >
   
 ## Datasets
-* For training, we used the following datasets:
+* Following datasets are used for training:
   * [ImageNet](http://www.image-net.org/) Training Set.
   * [Paintings](https://www.kaggle.com/c/painter-by-numbers)
   * [Comics](https://www.kaggle.com/cenkbircanoglu/comic-books-classification)
@@ -40,7 +40,7 @@ cd Cross-domain-perturbations
   * NeurIPS dataset (1k images).
   
 * Data directory structure should look like this:
-    '''bash
+ ```
     |Root
         |ClassA
                 img1
@@ -48,7 +48,7 @@ cd Cross-domain-perturbations
          .
          .
          .
-     '''
+```
 
 
 ## Training/Evaluations
