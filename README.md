@@ -35,9 +35,9 @@ cd Cross-domain-perturbations
   * You can try your own data set as well
   
 * For evaluations, we used the following dataset:
-  * [ImageNet]((http://www.image-net.org/)) Validation Set (50k images).
+  * [ImageNet](http://www.image-net.org/) Validation Set (50k images).
   * A [subset](https://github.com/LiYingwei/Regional-Homogeneity/tree/master/data) of ImageNet validation set (5k images).
-  * NeurIPS dataset (1k images).
+  * [NeurIPS dataset](https://www.kaggle.com/c/nips-2017-non-targeted-adversarial-attack) (1k images).
   
 * Data directory structure should look like this:
  ```
@@ -45,9 +45,11 @@ cd Cross-domain-perturbations
         |ClassA
                 img1
                 img2
-         .
-         .
-         .
+                ...
+        |ClassB
+                img1
+                img2
+                ...
 ```
 
 
