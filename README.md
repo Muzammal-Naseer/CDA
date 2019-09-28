@@ -1,5 +1,5 @@
 # Cross-Domain Transferable Perturbations 
-[Project Page](https://muzammal-naseer.github.io/Cross-domain-perturbations/)
+%[Project Page](https://muzammal-naseer.github.io/Cross-domain-perturbations/)
 
 Pytorch Implementation of "Cross-Domian Transferability of Adversarial Perturbations" (NeurIPS 2019) [(arXiv link)](https://arxiv.org/abs/1905.11736), 
 
