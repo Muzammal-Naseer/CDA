@@ -3,10 +3,11 @@
 
 Pytorch Implementation of "Cross-Domian Transferability of Adversarial Perturbations" (NeurIPS 2019) [(arXiv link)](https://arxiv.org/abs/1905.11736), 
 
-## Introduction
+## Highlights
 
-<p align="justify">The transferability of adversarial examples makes real-world attacks possible in black-box settings,
-where the attacker is forbidden to access the internal parameters of the model. we propose a framework capable of launching highly transferable attacks that crafts adversarial patterns to mislead networks trained on different domains. The core of our proposed adversarial function is a generative network that is trained using a relativistic supervisory signal that enables domain-invariant perturbation</p>
+1. The transferability of adversarial examples makes real-world attacks possible in black-box settings,
+where the attacker is forbidden to access the internal parameters of the model. we propose a framework capable of launching highly transferable attacks that crafts adversarial patterns to mislead networks trained on different domains. The core of our proposed adversarial function is a generative network that is trained using a relativistic supervisory signal that enables domain-invariant perturbation.
+2. We mainly focus on image classfication task but you can use our pretrained adversarial generators to test robustness of your model regardless of the task (Image classification, Segmentation, Object Detection etc.)
 
 ![Learning Algo](/assets/cross_distribution.png)
 
@@ -46,7 +47,7 @@ These models are trained on ImageNet and available in Pytorch.
   * [Subset](https://github.com/LiYingwei/Regional-Homogeneity/tree/master/data) of ImageNet validation set (5k images).
   * [NeurIPS dataset](https://www.kaggle.com/c/nips-2017-non-targeted-adversarial-attack) (1k images).
   
-* Data directory structure should look like this:
+* Directory structure should look like this:
  ```
     |Root
         |ClassA
@@ -69,4 +70,6 @@ This will load a generator trained on ImageNet (--train_dir) against ResNet152 (
 
 
 ## Create and Save Adversarial Images
+<p align="justify"> You can create adversarial samples for your dataset
+
 
