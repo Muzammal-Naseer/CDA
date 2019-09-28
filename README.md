@@ -25,6 +25,10 @@ cd Cross-domain-perturbations
 
 ## Pretrained Generators
 <p align="justify">Download pretrained adversarial generators from here to 'saved_models' folder. We provided one pretrained generator over this repo.<p >
+  
+## Datasets
+* For training, we used the following datasets:
+  * [ImageNet](http://www.image-net.org/) Training Set 
 
 
 ## Training/Evaluations
