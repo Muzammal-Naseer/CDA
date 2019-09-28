@@ -11,13 +11,12 @@ where the attacker is forbidden to access the internal parameters of the model. 
 ![Learning Algo](/assets/cross_distribution.png)
 
 ## Usage
-#### Installation
 1. Install [pytorch](https://pytorch.org/).
-2. Install python packages:
+2. Install python packages using following command:
 ```
 pip install -r requirements.txt
 ```
-#### Clone the repository
+3. Clone the repo.
 ```
 git clone https:https://github.com/Muzammal-Naseer/Cross-domain-perturbations.git
 cd Cross-domain-perturbations
