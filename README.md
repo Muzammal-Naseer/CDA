@@ -70,7 +70,7 @@ This will load a generator trained on ImageNet (--train_dir) against ResNet152 (
 
 
 ## Create and Save Adversarial Images
-<p align="justify"> If you need adversaries for visualization or adversarial training, run the following command:
+<p align="justify"> If you need to save adversaries for visualization or adversarial training, run the following command:
 
 ```
  python generate_and_save_adv.py --model_type incv3 --train_dir paintings --test_dir 'your_data/' --eps 255
