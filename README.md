@@ -96,6 +96,9 @@ You should see beautiful images (unbounded adversaries) like this:
   year={2019}
 }
 ```
-
+## Contact
+Muzammal Naseer - muzammal.naseer@anu.edu.au   or muz.pak@gmail.com
+<br/>
+Discussions, suggestions and questions are welcome!
 
 
