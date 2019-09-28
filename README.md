@@ -76,7 +76,7 @@ This will start trainig a generator trained on Paintings (--train_dir) against R
 This will load a generator trained on ImageNet (--train_dir) against ResNet152 (--model_type) and evaluate clean and adversarial accuracy of VGG19 (--model_t) under perturbation budget 10 (--eps). <p>
 
 
-## Create and Save Adversarial Images
+## Create and Save Adversaries
 <p align="justify"> If you need to save adversaries for visualization or adversarial training, run the following command:
 
 ```
