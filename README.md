@@ -27,16 +27,16 @@ cd Cross-domain-perturbations
 <p align="justify">Download pretrained adversarial generators from here to 'saved_models' folder. We provided one pretrained generator over this repo.<p >
   
 ## Datasets
-* Following datasets are used for training:
+* Training data:
   * [ImageNet](http://www.image-net.org/) Training Set.
   * [Paintings](https://www.kaggle.com/c/painter-by-numbers)
   * [Comics](https://www.kaggle.com/cenkbircanoglu/comic-books-classification)
   * [Chexnet](https://stanfordmlgroup.github.io/projects/chexnet/)
-  * You can try your own data set as well
+  * You can try your own data set as well.
   
-* For evaluations, we used the following dataset:
+* Evaluations data:
   * [ImageNet](http://www.image-net.org/) Validation Set (50k images).
-  * A [subset](https://github.com/LiYingwei/Regional-Homogeneity/tree/master/data) of ImageNet validation set (5k images).
+  * [Subset](https://github.com/LiYingwei/Regional-Homogeneity/tree/master/data) of ImageNet validation set (5k images).
   * [NeurIPS dataset](https://www.kaggle.com/c/nips-2017-non-targeted-adversarial-attack) (1k images).
   
 * Data directory structure should look like this:
@@ -51,9 +51,14 @@ cd Cross-domain-perturbations
                 img2
                 ...
 ```
+## Evaluations
+<p align="justify"> Run the following command
 
-
-## Training/Evaluations
+```
+  python eval.py --model_type res152 --train_dir imagenet --test_dir ../IN/val --epochs 0 --model_t vgg19 --eps 10 --measure_adv --rl
+  
+```
+This will load a generator trained on ImageNet (--train_dir) against ResNet152 (--model_type) and evaluate clean and adversarial accuracy of VGG19 (--model_t) under perturbation budget 10 (--eps) <p>
 
 
 ## Create and Save Adversarial Images
