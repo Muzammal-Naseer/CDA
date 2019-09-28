@@ -3,11 +3,9 @@
 
 ![Learning Algo](/assets/cross_distribution.png)
 ## Table of Contents  
-<!--ts-->
-* [Pretrained Generators](#generators)  
-* [Training/Evaluations](#train_eval)
-* [Create and Save Adversarial Images](#create_save)
-<!--te-->
+[Pretrained Generators](#generators)  
+[Training/Evaluations](#train_eval)
+[Create and Save Adversarial Images](#create_save)
 <a name="generators"/>
 ## Pretrained Generators
 fff
