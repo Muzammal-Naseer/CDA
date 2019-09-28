@@ -12,6 +12,8 @@ where the attacker is forbidden to access the internal parameters of the model. 
 
 ## Usage
 #### Installation
+1. Install [pytorch](https://pytorch.org/).
+2. Install python packages:
 ```
 pip install -r requirements.txt
 ```
