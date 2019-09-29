@@ -99,6 +99,6 @@ You should see beautiful images (unbounded adversaries) like this:
 ## Contact
 Muzammal Naseer - muzammal.naseer@anu.edu.au   or muz.pak@gmail.com
 <br/>
-Discussions, suggestions and questions are welcome!
+Suggestions and questions are welcome!
 
 
