@@ -9,7 +9,7 @@ Pytorch Implementation of "Cross-Domain Transferability of Adversarial Perturbat
 3) [Pretrained-Generators](#Pretrained-Generators) <a name="Pretrained-Generators"/>
 4) [How to Set-Up Data](#Datasets) <a name="Datasets"/>
 5) [Training/Eval](#Training)  <a name="Training"/>
-6) [Generate and Save Adversaries](#Generate and Save Adversaries) <a name="Generate and Save Adversaries"/>
+6) [Create-Adversarial-Dataset](#Create-Adversarial-Dataset) <a name="Create-Adversarial-Dataset"/>
 
 
 ## Highlights
@@ -87,7 +87,7 @@ This will start trainig a generator trained on Paintings (--train_dir) against R
 This will load a generator trained on ImageNet (--train_dir) against ResNet152 (--model_type) and evaluate clean and adversarial accuracy of VGG19 (--model_t) under perturbation budget 10 (--eps). <p>
 
 
-## Generate and Save Adversaries
+## Create-Adversarial-Dataset
 <p align="justify"> If you need to save adversaries for visualization or adversarial training, run the following command:
 
 ```
