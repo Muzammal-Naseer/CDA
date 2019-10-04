@@ -10,6 +10,7 @@ Pytorch Implementation of "Cross-Domain Transferability of Adversarial Perturbat
 4) [How to Set-Up Data](#Datasets) <a name="Datasets"/>
 5) [Training/Eval](#Training)  <a name="Training"/>
 6) [Create-Adversarial-Dataset](#Create-Adversarial-Dataset) <a name="Create-Adversarial-Dataset"/>
+7) [Citation](#Citation)  <a name="Citation"/>
 
 
 ## Highlights
