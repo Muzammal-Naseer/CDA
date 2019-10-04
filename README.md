@@ -9,6 +9,8 @@ Pytorch Implementation of "Cross-Domain Transferability of Adversarial Perturbat
 where the attacker is forbidden to access the internal parameters of the model. we propose a framework capable of launching highly transferable attacks that crafts adversarial patterns to mislead networks trained on different domains. The core of our proposed adversarial function is a generative network that is trained using a relativistic supervisory signal that enables domain-invariant perturbation.
 2. **We mainly focus on image classfication task but you can use our pretrained adversarial generators to test robustness of your model regardless of the task (Image classification, Segmentation, Object Detection etc.)**
 
+3. You don't need any particular (label etc.) setup to generate adversaries using our method. You can generate adversarial images of any size for any image dataset [(see how to set-up data directory)](## Datasets).
+
 ![Learning Algo](/assets/cross_distribution.png)
 
 ## Usage
@@ -47,6 +49,7 @@ These models are trained on ImageNet and available in Pytorch.
   * [ImageNet](http://www.image-net.org/) Validation Set (50k images).
   * [Subset](https://github.com/LiYingwei/Regional-Homogeneity/tree/master/data) of ImageNet validation set (5k images).
   * [NeurIPS dataset](https://www.kaggle.com/c/nips-2017-non-targeted-adversarial-attack) (1k images).
+  * You can try your own dataset as well.
   
 * Directory structure should look like this:
  ```
