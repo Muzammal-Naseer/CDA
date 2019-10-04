@@ -6,7 +6,7 @@ Pytorch Implementation of "Cross-Domain Transferability of Adversarial Perturbat
 ### Table of Contents  
 1) [Highlights](#Highlights) <a name="Highlights"/>
 2) [Usage](#Usage) <a name="Usage"/>
-3) [Pretrained Generators](#Pretrained Generators) <a name="Pretrained"/>
+3) [Pretrained Generators](#Pretrained) <a name="Pretrained"/>
 4) [How to set-up data](#Datasets) <a name="Datasets"/>
 5) [Training/Eval](#Training)  <a name="Training"/>
 
