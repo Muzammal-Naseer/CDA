@@ -4,10 +4,8 @@
 Pytorch Implementation of "Cross-Domain Transferability of Adversarial Perturbations" (NeurIPS 2019) [(arXiv link)](https://arxiv.org/abs/1905.11736), 
 
 ### Table of Contents  
-1) [Highlights](#Highlights) 
-<a name="Highlights"/>
-2) [Usage](#Usage) 
-<a name="Usage"/>
+1) [Highlights](#Highlights) <a name="Highlights"/>
+2) [Usage](#Usage) <a name="Usage"/>
 
 ## Highlights
 
