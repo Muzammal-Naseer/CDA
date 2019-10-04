@@ -6,7 +6,7 @@ Pytorch Implementation of "Cross-Domain Transferability of Adversarial Perturbat
 ### Table of Contents  
 1) [Highlights](#Highlights) <a name="Highlights"/>
 2) [Usage](#Usage) <a name="Usage"/>
-3) [Pretrained Generators](#Pretrained Generators) <a name="Pretrained Generators"/>
+3) [Pretrained Generators](#Pretrained Generators) <a name="Pretrained"/>
 4) [How to set-up data](#Datasets) <a name="Datasets"/>
 5) [Training/Eval](#Training)  <a name="Training"/>
 
@@ -34,6 +34,7 @@ cd Cross-domain-perturbations
 ```
 
 ## Pretrained Generators
+ <a name="Pretrained"/>
 Download pretrained adversarial generators from  [here](https://drive.google.com/open?id=1H_o90xtHYbK7M3bMMm_RtwTtCdDmaPJY) to 'saved_models' folder.
 
 Adversarial generators are trained against following four models.
