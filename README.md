@@ -109,7 +109,7 @@ You should see beautiful images (unbounded adversaries) like this:
 }
 ```
 ## Contact
-Muzammal Naseer - muzammal.naseer@anu.edu.au   or muz.pak@gmail.com
+Muzammal Naseer - muzammal.naseer@anu.edu.au 
 <br/>
 Suggestions and questions are welcome!
 
