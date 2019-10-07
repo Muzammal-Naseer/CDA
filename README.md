@@ -1,7 +1,7 @@
 # Cross-Domain Transferable Perturbations 
 <!--[Project Page](https://muzammal-naseer.github.io/Cross-domain-perturbations/)-->
 
-Pytorch Implementation of "Cross-Domain Transferability of Adversarial Perturbations" (NeurIPS 2019) [(arXiv link)](https://arxiv.org/abs/1905.11736), 
+Pytorch Implementation of "Cross-Domain Transferability of Adversarial Perturbations" (NeurIPS 2019) ([arXiv link])(https://arxiv.org/abs/1905.11736).
 
 ### Table of Contents  
 1) [Highlights](#Highlights) <a name="Highlights"/>
@@ -36,7 +36,7 @@ cd Cross-domain-perturbations
 ```
 
 ## Pretrained-Generators
-Download pretrained adversarial generators from  [here](https://drive.google.com/open?id=1H_o90xtHYbK7M3bMMm_RtwTtCdDmaPJY) to 'saved_models' folder.
+Download pretrained adversarial generators from [here](https://drive.google.com/open?id=1H_o90xtHYbK7M3bMMm_RtwTtCdDmaPJY) to 'saved_models' folder.
 
 Adversarial generators are trained against following four models.
 * ResNet152
@@ -104,7 +104,7 @@ You should see beautiful images (unbounded adversaries) like this:
 @article{naseer2019cross,
   title={Cross-Domain Transferability of Adversarial Perturbations},
   author={Naseer, Muzammal and Khan, Salman H and Khan, Harris and Khan, Fahad Shahbaz and Porikli, Fatih},
-  journal={arXiv preprint arXiv:1905.11736},
+  journal={Advances in Neural Information Processing Systems},
   year={2019}
 }
 ```
