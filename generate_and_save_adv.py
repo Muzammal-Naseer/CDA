@@ -85,7 +85,7 @@ big_img = []
 for i, (img, label) in enumerate(test_loader):
     img = img.to(device)
 
-    adv = netG(img)
+    adv = netG(img).detach()
     if args.gk:
         adv = kernel(adv)
     adv = torch.min(torch.max(adv, img - eps), img + eps)
