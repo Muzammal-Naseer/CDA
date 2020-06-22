@@ -1,319 +1,178 @@
-<html>
-  <head>
-        <title>Cross Domain Perturbations</title>
-        <meta property="og:title" content="Cross Domain Perturbations" />
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-<script type="text/javascript" async
-  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML">
-</script>
-	</head>
-<script src="http://www.google.com/jsapi" type="text/javascript"></script>
-<script type="text/javascript"> google.load("jquery", "1.3.2");</script>
 
-	</script>
-<style>
-    body {
-        font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-        font-weight:300;
-        margin-left: auto;
-        margin-right: auto;
-        width: 1100px;
-    }
-    h1 {
-        font-weight:300;
-    }
-    .disclaimerbox {
-        background-color: #eee;
-        border: 1px solid #eeeeee;
-        border-radius: 10px ;
-        -moz-border-radius: 10px ;
-        -webkit-border-radius: 10px ;
-        padding: 20px;
-    }
-    video.header-vid {
-        height: 140px;
-        border: 1px solid black;
-        border-radius: 10px ;
-        -moz-border-radius: 10px ;
-        -webkit-border-radius: 10px ;
-    }
-    img.header-img {
-        height: 140px;
-        border: 1px solid black;
-        border-radius: 10px ;
-        -moz-border-radius: 10px ;
-        -webkit-border-radius: 10px ;
-    }
-    img.rounded {
-        border: 1px solid #eeeeee;
-        border-radius: 10px ;
-        -moz-border-radius: 10px ;
-        -webkit-border-radius: 10px ;
-    }
-    a:link,a:visited
-    {
-        color: #1367a7;
-        text-decoration: none;
-    }
-    a:hover {
-        color: #208799;
-    }
-    td.dl-link {
-        height: 160px;
-        text-align: center;
-        font-size: 22px;
-    }
-    .layered-paper-big { /* modified from: http://css-tricks.com/snippets/css/layered-paper/ */
-        box-shadow:
-                0px 0px 1px 1px rgba(0,0,0,0.35), /* The top layer shadow */
-                5px 5px 0 0px #fff, /* The second layer */
-                5px 5px 1px 1px rgba(0,0,0,0.35), /* The second layer shadow */
-                10px 10px 0 0px #fff, /* The third layer */
-                10px 10px 1px 1px rgba(0,0,0,0.35), /* The third layer shadow */
-                15px 15px 0 0px #fff, /* The fourth layer */
-                15px 15px 1px 1px rgba(0,0,0,0.35), /* The fourth layer shadow */
-                20px 20px 0 0px #fff, /* The fifth layer */
-                20px 20px 1px 1px rgba(0,0,0,0.35), /* The fifth layer shadow */
-                25px 25px 0 0px #fff, /* The fifth layer */
-                25px 25px 1px 1px rgba(0,0,0,0.35); /* The fifth layer shadow */
-        margin-left: 10px;
-        margin-right: 45px;
-    }
-    .layered-paper { /* modified from: http://css-tricks.com/snippets/css/layered-paper/ */
-        box-shadow:
-                0px 0px 1px 1px rgba(0,0,0,0.35), /* The top layer shadow */
-                5px 5px 0 0px #fff, /* The second layer */
-                5px 5px 1px 1px rgba(0,0,0,0.35), /* The second layer shadow */
-                10px 10px 0 0px #fff, /* The third layer */
-                10px 10px 1px 1px rgba(0,0,0,0.35); /* The third layer shadow */
-        margin-top: 5px;
-        margin-left: 10px;
-        margin-right: 30px;
-        margin-bottom: 5px;
-    }
-    .vert-cent {
-        position: relative;
-        top: 50%;
-        transform: translateY(-50%);
-    }
-    hr
-    {
-        border: 0;
-        height: 1.5px;
-        background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
-    }
-</style>
-  <body>
-    <br>
-    <center>
-        <span style="font-size:42px">Cross Domain Transferability of Adversarial Perturbations</span>
-    </center>
+<!-- Open Graph -->
+<meta property="og:locale" content="en_US">
+<meta property="og:type" content="article">
+<meta property="og:title" content="salman-h-khan.github.io">
+<meta property="og:description" content="Salman Khan's website">
+<meta property="og:url" content="https://salman-h-khan.github.io/">
+<meta property="og:site_name" content="salman-h-khan.github.io">
 
-    <br><br>
+
+
+
+
+<link rel="canonical" href="https://salman-h-khan.github.io/">
+<link href="https://salman-h-khan.github.io/feed.xml" type="application/atom+xml" rel="alternate" title="salman-h-khan.github.io Feed">
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- Google Webfonts -->
+<link href='https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700|PT+Serif:400,700,400italic' rel='stylesheet' type='text/css'>
+<!-- For all browsers -->
+<link rel="stylesheet" href="https://salman-h-khan.github.io/assets/css/main.min.css">
+<link rel="stylesheet" href="https://salman-h-khan.github.io/assets/academicons.css" />
+
+<meta https-equiv="cleartype" content="on">
+
+<!-- HTML5 Shiv and Media Query Support -->
+<!--[if lt IE 9]>
+	<script src="https://salman-h-khan.github.io/assets/js/vendor/html5shiv.min.js"></script>
+	<script src="https://salman-h-khan.github.io/assets/js/vendor/respond.min.js"></script>
+<![endif]-->
+
+<!-- Modernizr -->
+<script src="https://salman-h-khan.github.io/assets/js/vendor/modernizr-2.7.1.custom.min.js"></script>
+
+<!-- Icons -->
+<link rel="icon" type="image/jpg" sizes="32x32" href="/favicon.jpg">
+<link rel="icon" type="image/jpg" sizes="96x96" href="/favicon.jpg">
+<link rel="icon" type="image/jpg" sizes="16x16" href="/favicon.jpg">
+
+<link rel="shortcut icon" href="https://salman-h-khan.github.io/favicon.jpg"> <!-- .ico -->
+<link rel="shortcut icon" href="https://salman-h-khan.github.io/favicon.jpg">
+
+<!-- 144x144 (precomposed) for iPad 3rd and 4th generation -->
+<link rel="apple-touch-icon-precomposed" sizes="192x192" href="https://salman-h-khan.github.io/images/favicon.jpg">
+
+<meta name="google-site-verification" content="t0BRFGbT_qpFQ-8bKqRhR2vcKliLttXNwtqBigtUnY0" />
+</head>
+
+<body class="page">
+
+<!--[if lt IE 9]><div class="browser-upgrade alert alert-info">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div><![endif]-->
+
+
+<div class="navigation-wrapper">
+	<div class="site-name">
+		<a href="https://salman-h-khan.github.io">salman-h-khan.github.io</a>
+	</div><!-- /.site-name -->
+	<div class="top-navigation">
+		<nav role="navigation" id="site-nav" class="nav">
+		    <ul>
+		    	<li><a href="/"><i class="fa fa-home"></i> Home</a></li>
+		        
+				<li><a href="https://salman-h-khan.github.io/research/" >Research</a></li>
+		        
+				<li><a href="https://salman-h-khan.github.io/publications/" >Publications</a></li>
+		        
+				<li><a href="https://salman-h-khan.github.io/code_data/" >Code & Data</a></li>
+		        
+				<li><a href="https://salman-h-khan.github.io/people/" >People</a></li>
+		        
+		    </ul>
+		</nav>
+	</div><!-- /.top-navigation -->
+</div><!-- /.navigation-wrapper -->
+
+
+
+
+<div id="main" role="main">
+  <div class="article-author-side">
     
-    <table align=center width=1100px>
-       <tr>
-        <td align=center width=100px>
-            <center>
-                <span style="font-size:20px"><a href="https://scholar.google.ch/citations?user=tM9xKA8AAAAJ&hl=en/">Muzammal Naseer<sup>1</sup></a></span>
-            </center>
-        </td>
-        <td align=center width=100px>
-            <center>
-                <span style="font-size:20px;color:red"><a href="https://scholar.google.com/citations?user=M59O9lkAAAAJ&hl=en/">Salman Khan<sup>2,1</sup></a></span>
-            </center>
-        </td>
-        <td align=center width=100px>
-            <center>
-                <span style="font-size:20px"><a href="https://scholar.google.com/citations?user=ZgERfFwAAAAJ&hl=en/">Haris Khan<sup>2</sup></a></span>
-            </center>
-        </td>
-        <td align=center width=100px>
-            <center>
-                <span style="font-size:20px"><a href="https://scholar.google.com/citations?user=zvaeYnUAAAAJ&hl=en">Fahad Shahbaz Khan
-                <sup>2</sup></a></span>
-            </center>
-        </td>             
-        <td align=center width=100px>
-            <center>
-                <span style="font-size:20px"><a href="https://scholar.google.com/citations?user=VpB8NZ8AAAAJ&hl=en">Fatih Porikli
-                <sup>1</sup></a></span>
-            </center>
-        </td>
+	<img src="https://salman-h-khan.github.io/images/salman.png" class="bio-photo" alt="Salman Khan bio photo"></a>
+
+<h3>Salman Khan</h3>
+<p>I'm a computer vision researcher affiliated with IIAI and ANU.</p>
+
+<a href="https://scholar.google.es/citations?user=M59O9lkAAAAJ" class="author-social" target="_blank"><i class="ai ai-google-scholar-square"></i>&nbsp; G. Scholar</a>
+
+<a href="https://linkedin.com/in/salman-hameed-khan-12184128" class="author-social" target="_blank"><i class="fa fa-linkedin-square"></i> LinkedIn</a>
+
+
+
+
+
+
+
+
+
+<a href="mailto:salman.khan(at)inceptioniai.org" class="author-social" target="_blank"><i class="fa fa-envelope-square"></i> E-Mail</a>
+
+
+  </div>
+  
+  <article>
+    <h1></h1>
+    <div class="article-wrap">
+      <p>I am a Senior Scientist at <a href="http://www.inceptioniai.org/">Inception Institute of Artificial Intelligence</a> since 2018. Previously, I was a Research Scientist in the Computer Vision Research Group (CVRG) at <a href="http://www.data61.csiro.au/">Data61</a>, <a href="http://www.csiro.au/">CSIRO</a> (Commonwealth Scientific and Industrial Research Organization) from 2016-18. I am also an Adjunct Lecturer at <a href="http://cecs.anu.edu.au/">College of Electrical &amp; Computer Science</a> (CECS), <a href="https://www.anu.edu.au/">Australian National University</a> (ANU) since 2016.<br /><br /></p>
+
+<p>I completed my PhD in Computer Vision from <a href="https://www.uwa.edu.au/">The University of Western Australia</a> (UWA), under the supervision of <a href="https://scholar.google.ae/citations?user=ylX5MEAAAAAJ&amp;hl=en">W/Prof. Mohammed Bennamoun</a>. My PhD thesis received `<a href="http://www.postgraduate.uwa.edu.au/students/funding/prizes/board-of-the-graduate-research-school-deans-list">Honorable Mention on the Dean’s List</a>’ award at the UWA. I also completed an internship at <a href="https://en.wikipedia.org/wiki/NICTA">NICTA</a> (National ICT Australia) in 2015 and served as an research affiliate with <a href="https://www.roboticvision.org/">Australian Center for Robotic Vision</a> (ACRV) during 2016-18.</p>
+
+<h1 id="news">News!</h1>
+
+<ul>
+  <li>A paper accepted in TPAMI on adversarial defense. [Mar’20]</li>
+  <li>Five papers accepted at CVPR’20 (2 orals). Congratulations to Muzammal, Jathushan, Yaxing, Waqas and Haris. [Mar’20]</li>
+  <li>A paper accepted in ACM Computing Surveys. [Mar’20]</li>
+  <li>Our paper won the best student paper award at ICPRAM’20. Congratulations to Sameera. [Feb’20]</li>
+  <li>Paper accepted in IJCV. Congratulations to Sameera! [Dec’19]</li>
+  <li>Our papers on fine-grained recognition and zero-shot detection are accepted in AAAI’20, New York. [Nov’19]</li>
+  <li>Two papers accepted in NeurIPS’19, Vancouver. Congratulations to Jathushan and Muzammal! [Sep’19]</li>
+  <li>A <a href="https://captain-whu.github.io/iSAID/index.html">Large-scale Instance Segmentation Dataset for Aerial Images</a> (iSAID) is available for download. [Aug’19]</li>
+  <li>Four papers accepted in upcoming ICCV’19 (including 1 oral). Congratulations to Aamir, Shafin and Sudong! [Jul’19]</li>
+  <li>Selected for the ‘<a href="http://cvpr2019.thecvf.com/files/CVPR_2019_Program_Guide.pdf">Outstanding Reviewer Award</a>’ at CVPR’19 [May’19]</li>
+  <li>We have claimed 2nd position in CVPR-NTIRE 2019 Image Enhancement Challenge [Apr’19]</li>
+  <li>Two papers (1 oral, 1 poster) accepted in CVPR’19! [Feb’19]</li>
+  <li>Paper on Spectral Dropout accpeted in Neural Networks [Sep’18]</li>
+  <li>Our paper on ZSL accepted in IEEE TIP [Jul’18]</li>
+  <li>One paper accepted each in BMVC and WACV 2018. [Jul’18]</li>
+  <li>Our work on “Zero-shot detection” is now available: <a href="https://salman-h-khan.github.io/ProjectPages/ZSD_Arxiv18">Project Page</a> [Apr’18]</li>
+  <li>Our book titled “A Guide to CNNs for Computer Vision” has been published [Feb’18]</li>
+</ul>
+
+
+      <!-- <a class="twitter-timeline" href="https://twitter.com/jponttuset" data-widget-id="338001751854686210">Tuits de @jponttuset</a>
+      <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^https:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+      -->
+    </div><!-- /.article-wrap -->
+    
+  </article>
+</div><!-- /#index -->
+
+<div class="footer-wrap">
+  <footer>
+    <span>&copy; 2020 Salman Khan. Powered by <a href="https://jekyllrb.com">Jekyll</a> using the <a href="https://mademistakes.com/minimal-mistakes/">Minimal Mistakes</a> theme.</span>
+
+  </footer>
+</div><!-- /.footer-wrap -->
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="https://salman-h-khan.github.io/assets/js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+<script src="https://salman-h-khan.github.io/assets/js/scripts.min.js"></script>
+
+<!-- Asynchronous Google Analytics snippet -->
+<script>
+  var _gaq = _gaq || [];
+  var pluginUrl = 
+ '//www.google-analytics.com/plugins/ga/inpage_linkid.js';
+  _gaq.push(['_require', 'inpage_linkid', pluginUrl]);
+  _gaq.push(['_setAccount', 'UA-52736040-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'https://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+
           
-    <table align=center width=900px>
-        <br>
-       <tr>
-        <td align=center width=600px>
-            <center>
-                <span style="font-size:20px"><sup>1</sup>Australian National University</span>
-            </center>
-        </td>
-         <td align=center width=600px>
-            <center>
-                <span style="font-size:20px"><sup>2</sup>Inception Institute of Artificial Intelligence</span>
-            </center>
-        </td>
-    </table>
-      
-    <br>
-    <table align=center width=650px>
-	  	<tr>    
-	  	<td align=center width=150px>
-	  		<center>
-	  			<span style="font-size:24px"><a href='https://github.com/Muzammal-Naseer/Cross-domain-perturbations'> [GitHub]</a></span>
-		  	</center>
-		</td>
-
-	  	<td align=center width=150px>
-	  		<center>
-	  			<span style="font-size:24px"><a href='https://arxiv.org/abs/1905.11736'> [Paper]</a></span>
-		  	</center>
-        </td>
-        
-        <td align=center width=150px>
-                <center>
-                    <span style="font-size:24px"><a href='https://github.com/Muzammal-Naseer/Cross-domain-perturbations/blob/gh-pages/resources/images/bibtex.txt'> [Bibtex]</a></span>
-                </center>
-          </td>
-		</table>
-
-        <br>
-        <table align=center width=900px>
-            <tr>
-            <td width=400px>
-                <center>
-                    <a href="./resources/images/teaser.png"><img src = "./resources/images/Teaser.jpg" height="400px"></img></href></a><br>
-                </center>
-            </td>
-            </tr>
-            <td width=600px>
-                <center>
-                    <span style="font-size:14px"><i> <span style="font-weight:bold">Transferable Generative Adversarial Perturbation: We demonstrate that common adversaries exist across different image domains and introduce a highly transferable attack approach that carefully crafts adversarial patterns to fool classifiers trained on totally different domains. Our generative scheme learns to reconstruct adversaries on paintings or comics (\emph{left}) that can successfully fool natural image classifiers with high fooling rates at the inference time (\emph{right}).
-                </center>
-            </td>
-            </table>
-
-            <br>
-            <table align=center width=850px>
-                    <center><h1>Abstract</h1></center>
-            </table>
-            Adversarial examples reveal the blind spots of deep neural networks (DNNs) and represent a major concern for security-critical applications. 
-            The transferability of adversarial examples makes real-world attacks possible in black-box settings, where the attacker is forbidden to access the internal parameters of the model. 
-            The underlying assumption in most adversary generation methods, whether learning an instance-specific or an instance-agnostic perturbation, is the direct or indirect reliance on the original domain-specific data distribution. 
-            In this work, for the first time, we demonstrate the existence of domain-invariant adversaries, thereby showing common adversarial space among different datasets and models.
-            To this end, we propose a framework capable of launching highly transferable attacks that crafts adversarial patterns to mislead networks trained on wholly different domains. 
-            For instance, an adversarial function learned on Paintings, Cartoons or Medical images can successfully perturb ImageNet samples to fool the classifier, with success rates as high as $\sim$99\% \(\ell_{\infty} \le 10)\.
-            The core of our proposed adversarial function is a generative network that is trained using a relativistic supervisory signal that enables domain-invariant perturbations. 
-            Our approach sets the new state-of-the-art for fooling rates, both under the white-box and black-box scenarios. Furthermore, despite being an instance-agnostic perturbation function, our attack outperforms the conventionally much stronger instance-specific attack methods.
-            <br><br>
-          <hr>
-
-          <center>
-                <h1>
-                    Perturbations
-                    <br>
-                </h1>
-            </center>
-
-            A viual demonstratration of the effect of different datasets on adversarial perturbations e.g, generator can converge to different solutions.
-
-            
-            <table align=center width=1100px>
-                </tr>
-                <br><br>
-                <td width=200px>
-                    <center><b>Perturbations found against: <em>Inceptionv3</em></b></center>
-                    <ul>
-                        <ul><a><img class="rounded" height=80px src="./resources/images/imgincv3.jpg"/></a><center>Original Images</center></ul>
-                        <ul><a><img class="rounded" height=80px src="./resources/images/adv_unbound_paintings_incv3.jpg"/></a></ul>
-                        <ul><a><img class="rounded" height=80px src="./resources/images/adv_paintings_incv3.jpg"/><center>Dataset: Paintings</center></ul>
-                        <ul><a><img class="rounded" height=80px src="./resources/images/adv_unbound_comics_incv3.jpg"/></a></ul>
-                        <ul><a><img class="rounded" height=80px src="./resources/images/adv_comics_incv3.jpg"/><center>Dataset: Comics</center></ul>
-                        <ul><a><img class="rounded" height=80px src="./resources/images/adv_unbound_imagenet_incv3.jpg"/></a></ul>
-                        <ul><a><img class="rounded" height=80px src="./resources/images/adv_imagenet_incv3.jpg"/><center>Dataset: ImageNet</center></ul>
-                        </ul>
-                </td>
-                <td width=200px>
-                        <center><b>Perturbations found against: <em>VGG19</em></b></center>
-                        <ul>
-                            <ul><a><img class="rounded" height=80px src="./resources/images/imgvgg19.jpg"/></a><center>Original Images</center></ul>
-                            <ul><a><img class="rounded" height=80px src="./resources/images/adv_unbound_paintings_vgg19.jpg"/></a></ul>
-                            <ul><a><img class="rounded" height=80px src="./resources/images/adv_paintings_vgg19.jpg"/><center>Dataset: Paintings</center></ul>
-                            <ul><a><img class="rounded" height=80px src="./resources/images/adv_unbound_comics_vgg19.jpg"/></a></ul>
-                            <ul><a><img class="rounded" height=80px src="./resources/images/adv_comics_vgg19.jpg"/><center>Dataset: Comics</center></ul>
-                            <ul><a><img class="rounded" height=80px src="./resources/images/adv_unbound_imagenet_vgg19.jpg"/></a></ul>
-                            <ul><a><img class="rounded" height=80px src="./resources/images/adv_imagenet_vgg19.jpg"/><center>Dataset: ImageNet</center></ul>
-                            </ul>
-                </td>
-               </table>	  
-            
-               <table align=center width=1100px>
-                </tr>
-                <td width=200px>
-                    <center><b>Perturbations found against:  <em>ResNet152</em></b></center>
-                    <ul>
-                        <ul><a><img class="rounded" height=80px src="./resources/images/imgres152.jpg"/><center>Original Images</center></a></ul>
-                        <ul><a><img class="rounded" height=80px src="./resources/images/adv_unbound_paintings_res152.jpg"/></a></ul>
-                        <ul><a><img class="rounded" height=80px src="./resources/images/adv_paintings_res152.jpg"/><center>Dataset: Paintings</center></ul>
-                        <ul><a><img class="rounded" height=80px src="./resources/images/adv_unbound_comics_res152.jpg"/></a></ul>
-                        <ul><a><img class="rounded" height=80px src="./resources/images/adv_comics_res152.jpg"/><center>Dataset: Comics</center></ul>
-                        <ul><a><img class="rounded" height=80px src="./resources/images/adv_unbound_imagenet_res152.jpg"/></a></ul>
-                        <ul><a><img class="rounded" height=80px src="./resources/images/adv_imagenet_res152.jpg"/><center>Dataset: ImageNet</center></ul>
-                        </ul>
-                </td>
-                <td width=200px>
-                        <center><b>Perturbations found against: <em>VGG16</em></b></center>
-                        <ul>
-                            <ul><a><img class="rounded" height=80px src="./resources/images/imgvgg16.jpg"/><center>Original Images</center></a></ul>
-                            <ul><a><img class="rounded" height=80px src="./resources/images/adv_unbound_paintings_vgg16.jpg"/></a></ul>
-                            <ul><a><img class="rounded" height=80px src="./resources/images/adv_paintings_vgg16.jpg"/><center>Dataset: Paintings</center></ul>
-                            <ul><a><img class="rounded" height=80px src="./resources/images/adv_unbound_comics_vgg16.jpg"/></a></ul>
-                            <ul><a><img class="rounded" height=80px src="./resources/images/adv_comics_vgg16.jpg"/><center>Dataset: Comics</center></ul>
-                            <ul><a><img class="rounded" height=80px src="./resources/images/adv_unbound_imagenet_vgg16.jpg"/></a></ul>
-                            <ul><a><img class="rounded" height=80px src="./resources/images/adv_imagenet_vgg16.jpg"/><center>Dataset: ImageNet</center></ul>
-                            </ul>
-                </td>
-               </table>	  
-
-            <hr>
-            <table align=center width=1100px>
-                <tr>
-                <td>
-                <left>
-                    <center><h1>Acknowledgements</h1></center>
-                    The work was done at Inception Institute of Artificial Intelligence. 
-                    This webpage template was borrowed from <a href="https://richzhang.github.io/colorization/">Richard Zhang</a>.
-                </left>
-                </td>
-        </table>
-				$$x = {-b \pm \sqrt{b^2-4ac} \over 2a}.$$
-\documentclass{article}
-\usepackage{amsmath}
-\title{\LaTeX}
-
-\begin{document}
-  \maketitle
-  \LaTeX{} is a document preparation system for
-  the \TeX{} typesetting program. It offers
-  programmable desktop publishing features and
-  extensive facilities for automating most
-  aspects of typesetting and desktop publishing,
-  including numbering and  cross-referencing,
-  tables and figures, page layout,
-  bibliographies, and much more. \LaTeX{} was
-  originally written in 1984 by Leslie Lamport
-  and has become the  dominant method for using
-  \TeX; few people write in plain \TeX{} anymore.
-  The current version is \LaTeXe.
-
-  % This is a comment, not shown in final output.
-  % The following shows typesetting  power of LaTeX:
-  \begin{align}
-    E_0 &= mc^2 \\
-    E &= \frac{mc^2}{\sqrt{1-\frac{v^2}{c^2}}}
-  \end{align}  
-\end{document}
 
 </body>
 </html>
