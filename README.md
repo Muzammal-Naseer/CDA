@@ -98,6 +98,7 @@ You should see beautiful images (unbounded adversaries) like this:
 ![unbounded adversaries](/assets/adv_unbound_paintings_incv3.jpg)
 
 ## Citation
+If you find our pretrained adversarial generators useful. Please consider citing our work
 ```
 @article{naseer2019cross,
   title={Cross-Domain Transferability of Adversarial Perturbations},
