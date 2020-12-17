@@ -76,7 +76,7 @@ These models are trained on ImageNet and available in Pytorch.
 <p align="justify"> Run the following command
 
 ```
-  python train.py --model_type res152 --train_dir paintings --eps 10 --rl
+  python train.py --model_type res152 --train_dir paintings --eps 10 
 ```
 This will start trainig a generator trained on Paintings (--train_dir) against ResNet152 (--model_type) under perturbation budget 10 (--eps) with relativistic supervisory signal.<p>
 ## Evaluations
