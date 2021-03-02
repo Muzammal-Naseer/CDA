@@ -113,13 +113,13 @@ for epoch in range(args.epochs):
     for i, (img, _) in enumerate(train_loader):
         img = img.to(device)
 
+        # whatever the model think about the input
+        label = model(normalize(img.clone().detach())).argmax(dim=-1).detach()
+        
         if args.target == -1:
-            # whatever the model think about the input
-            label = model(normalize(img.clone().detach())).argmax(dim=-1).detach()
-        else:
-            label = torch.LongTensor(img.size(0))
-            label.fill_(args.target)
-            label = label.to(device)
+            targte_label = torch.LongTensor(img.size(0))
+            targte_label.fill_(args.target)
+            targte_label = targte_label.to(device)
 
         netG.train()
         optimG.zero_grad()
@@ -142,7 +142,8 @@ for epoch in range(args.epochs):
 
         else:
             # Gradient decent (Targetted Attack)
-            loss = criterion(model(normalize(adv)), label)
+            # loss = criterion(model(normalize(adv)), targte_label)
+            loss = criterion(model(normalize(adv)), targte_label) + criterion(model(normalize(img)), label)
         loss.backward()
         optimG.step()
 
