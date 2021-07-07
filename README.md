@@ -101,9 +101,11 @@ You should see beautiful images (unbounded adversaries) like this:
 If you find our work, this repository and pretrained adversarial generators useful. Please consider giving a star :star: and citation.
 ```
 @article{naseer2019cross,
-  title={Cross-Domain Transferability of Adversarial Perturbations},
-  author={Naseer, Muzammal and Khan, Salman H and Khan, Harris and Khan, Fahad Shahbaz and Porikli, Fatih},
+  title={Cross-domain transferability of adversarial perturbations},
+  author={Naseer, Muhammad Muzammal and Khan, Salman H and Khan, Muhammad Haris and Shahbaz Khan, Fahad and Porikli, Fatih},
   journal={Advances in Neural Information Processing Systems},
+  volume={32},
+  pages={12905--12915},
   year={2019}
 }
 ```
